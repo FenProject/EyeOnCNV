@@ -9,4 +9,3 @@ the command lines of `Read_me_cnv_petit_evenement.docx`.
 - Python package `eyeoncnv` and `eyeoncnv` command: `run`, `intervals`, `genes`,
   `hgvs`, `highlight`.
 - Synthetic examples, pytest suite, GitHub Actions workflow, documentation.
-- Bug fixes listed in [docs/changes-from-notebooks.md](docs/changes-from-notebooks.md).
