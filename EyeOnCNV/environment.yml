@@ -1,0 +1,18 @@
+# conda env create -f environment.yml && conda activate eyeoncnv
+name: eyeoncnv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - samtools>=1.10
+  - numpy
+  - pandas>=2.0
+  - openpyxl
+  - pytest
+  # step 3 (hgvs) - binary packages avoid compiling psycopg2/pysam
+  - psycopg2
+  - pysam
+  - pip
+  - pip:
+      - -e ".[hgvs]"

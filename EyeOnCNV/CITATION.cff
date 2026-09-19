@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "EyeOnCNV"
+abstract: "Detects the small copy-number events that bin-based CNV callers miss (roughly 30-100 bp), by following read depth base by base."
+authors:
+  - family-names: Otmane
+    given-names: Lotfi
+version: 0.1.0
+license: MIT
